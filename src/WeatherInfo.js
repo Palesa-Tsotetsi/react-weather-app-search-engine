@@ -16,18 +16,16 @@ export default function WeatherInfo(props){
             <div className="row">
 
             <div className="col-6">
-                    <span className="temperature"> {Math.round(props.data.temperature)}</span>
-                    <span className="unit">°C </span>
-                    
-                        <img
-                        src={props.data.icon}
-                        alt={props.data.description}
+                    <img
+                            src={props.data.icon} 
+                            alt={props.data.description}
                         />
-        
+                    <span className="temperature"> {Math.round(props.data.temperature)}</span> 
+                    <span className="unit">°C </span>
                 </div>
             
                 <div className="col-6">
-                    Humidity: {props.data.humidity}%
+                    Humidity: {props.data.humidity}%  <br></br>
                     Wind Speed: {Math.round(props.data.wind)}km/h
                 </div>
 
