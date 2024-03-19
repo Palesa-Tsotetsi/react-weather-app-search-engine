@@ -8,7 +8,7 @@ function App() {
       <Weather defaultCity="Cape Town"/>
     
 
-    <footer> This project was coded by <a href="">Palesa Tsotetsi</a> and can be found on <a href="">GitHub.</a> </footer>
+    <footer> This project was coded by <a href="https://github.com/Palesa-Tsotetsi/react-weather-app-search-engine.git" target="_blank">Palesa Tsotetsi</a> and can be found on <a href="https://github.com/Palesa-Tsotetsi/react-weather-app-search-engine.git" target="_blank">GitHub.</a> </footer>
     </div>
   );
 }
