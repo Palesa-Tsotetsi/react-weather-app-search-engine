@@ -1,0 +1,27 @@
+ul, h2{
+    text-align: left;
+}
+
+h2{
+    padding-top: 30px;
+}
+
+.Weatherinfo{
+    margin-left: 30px;
+}
+.temperature{
+    font-size: 58px;
+}
+
+.unit {
+    color: rgb(33, 33, 33);
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    line-height: 1;
+    top: -34px;
+
+  }
+  .humid{
+    font-weight: 600;
+  }

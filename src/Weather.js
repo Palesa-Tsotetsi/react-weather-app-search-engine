@@ -26,7 +26,7 @@ export default function Weather(props){
   }
 
   function displayData(response) {
-    console.log(response)
+    
     setWeatherData({
       ready: true,
       temperature: response.data.main.temp,
@@ -49,6 +49,7 @@ export default function Weather(props){
               <input type="text" placeholder="Enter City.." onChange={updateCity} />
               <input type="submit" value="Search" />
           </form>
+          
           <WeatherInfo data={weatherData}/>
         </div>
 
