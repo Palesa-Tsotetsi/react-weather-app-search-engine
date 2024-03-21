@@ -25,3 +25,6 @@ h2{
   .humid{
     font-weight: 600;
   }
+  .temp{
+    margin-left: -50px;
+  }

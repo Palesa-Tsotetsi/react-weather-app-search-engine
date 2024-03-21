@@ -1,7 +1,10 @@
 .Forecast{
     text-align: center;
 }
-.min-temperature{
+.temperature-min{
     opacity: 0.7;
     margin-left: 5px;
+}
+.col{
+    padding-top: 20px;
 }

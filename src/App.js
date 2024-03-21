@@ -8,7 +8,7 @@ function App() {
       <Weather defaultCity="Cape Town"/>
     
 
-      <footer> This project was coded by <a href="https://github.com/Palesa-Tsotetsi/react-weather-app-search-engine.git" target="_blank" rel="noreferrer">Palesa Tsotetsi</a> and can be found on <a href="https://github.com/Palesa-Tsotetsi/react-weather-app-search-engine.git" target="_blank" rel="noreferrer">GitHub.</a> </footer>
+      <footer> This project was coded by <a href="https://github.com/Palesa-Tsotetsi/react-weather-app-search-engine.git" target="_blank" rel="noreferrer">Palesa Tsotetsi</a> and is Hosted on <a href="www.netlify.com">Netlify</a> can be found on <a href="https://github.com/Palesa-Tsotetsi/react-weather-app-search-engine.git" target="_blank" rel="noreferrer">GitHub.</a> </footer>
     </div>
   );
 }
